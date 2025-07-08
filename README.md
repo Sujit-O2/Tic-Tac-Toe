@@ -1,19 +1,20 @@
-# ❌⭕ Tic Tac Toe – Java Console Game
+# 🟢 Tic Tac Toe (Console - Player vs Computer)
 
-## 📝 Description
-A simple two-player console-based Tic Tac Toe game developed in Java. Played on a 3x3 grid, the game handles player turns, win conditions, and draw scenarios using basic logic and loops.
+A classic **single-player console Tic Tac Toe** game built in Java, where the user competes against a rule-based computer opponent.
 
-## 🚀 Features
-- Two-player mode
-- Input validation
-- Win/draw detection
-- Console-based UI
+## 🎮 Features
+- Player vs computer turn logic
+- 3x3 game board with ASCII rendering
+- Win, draw, and replay logic
+- Input validation for moves
 
-## 🛠️ Technologies Used
-- Java
-- Loops & Conditionals
-- 2D Arrays
-- Console I/O
+## 🧠 Concepts Used
+- 2D arrays
+- Game loop and turn alternation
+- Conditional logic and input validation
+- Basic AI for computer move selection
 
-## ▶️ How to Run
-1. Clone the repository:
+## 🔧 How to Run
+```bash
+javac TicTacToe.java
+java TicTacToe
